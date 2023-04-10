@@ -85,6 +85,9 @@ git add 명령어는 내가 변경한 파일들을 staging area에 모아두고 
 
 git commit 명령어는 staging area에 있는 파일들을 local repository에 옮기고 싶을 때 사용한다. staging area에서 파일들을 수정하고 묶는 작업이 끝났다면 local repository에 옮기고 옮긴 파일들은 remote repository로, 깃허브에 올릴 수 있게 된다.
 
+git add로 수많은 변경사항들을 저장한 다음, commit으로 이름을 붙이고 한번에 repository로 보낼 수 있다. 
+add가 변경사항을 하나씩 저장한다면 commit은 묶음으로 한번에 처리하기 위한 느낌이다.
+
 3. push
 
 git push <저장소명> <브랜치명> 이렇게 사용한다. local repository에 있는 파일들을 remote repository로 보낼 때 사용한다. 내 컴퓨터에 있는 파일들을 깃허브로 보낼 때 이 명령어를 사용한다. 전시회 창고에서 진짜 전시회장으로 가는 거다!
